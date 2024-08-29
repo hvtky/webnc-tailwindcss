@@ -1,0 +1,19 @@
+{
+  "name": "webnc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss -i ./baitap1/src/input.css -o ./baitap1/public/output.css --watch",
+    "start:dev": "live-server --browser=chrome ./baitap1/public/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.10"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
